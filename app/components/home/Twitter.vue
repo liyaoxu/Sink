@@ -1,3 +1,4 @@
+<!--
 <script setup>
 import { ArrowRight } from 'lucide-vue-next'
 import { XIcon } from 'vue3-simple-icons'
@@ -24,3 +25,4 @@ const { twitter } = useAppConfig()
     <ArrowRight class="h-4 w-4" />
   </a>
 </template>
+-->
