@@ -1,13 +1,16 @@
-<!--
 <script setup>
 import { ArrowRight } from 'lucide-vue-next'
 import { XIcon } from 'vue3-simple-icons'
 
 const { twitter } = useAppConfig()
+
+// 控制显示状态的变量
+const showTwitterLink = false
 </script>
 
 <template>
   <a
+    v-if="showTwitterLink"
     :href="twitter"
     target="_blank"
     title="X(Twitter)"
@@ -25,4 +28,3 @@ const { twitter } = useAppConfig()
     <ArrowRight class="h-4 w-4" />
   </a>
 </template>
--->
